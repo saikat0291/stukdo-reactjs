@@ -53,8 +53,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
+#gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'twitter-bootstrap-rails', '~> 3.2', '>= 3.2.2'
 gem 'font-awesome-rails'
 
 gem "simple_form"

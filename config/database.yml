@@ -1,13 +1,13 @@
 development:
   adapter: postgresql
-  database: stukdo
+  database: todo2
   host: localhost
   username: postgres
   password: "postgres"  #Put your password here
 
 production:
   adapter: postgresql
-  database: stukdo
+  database: todo2
   encoding: utf8
   min_messages: warning
   pool: 5
